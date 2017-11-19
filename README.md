@@ -1,5 +1,5 @@
 # Result
-## Usefull Material to be tried (important)
+## Usefull Material to be Tried (Important)
 * **[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)**<br />
 * **[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
 Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
