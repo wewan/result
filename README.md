@@ -55,8 +55,11 @@ The testing dice accuracy is around [0.7735 0.7686] <br />
 
 <img src="results/MSfcn.png" width=1024 />
 
-**combined loss from different layers**
-
+**combined loss from different layers(used in MSFCN)**
+<img src="results/MSfcn.png" width=1024 />
+Ref[Object Skeleton Extraction in Natural Images by Fusing Scale-associated Deep
+Side Outputs
+Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemental/Shen_Object_Skeleton_Extraction_2016_CVPR_supplemental.pdf)
 
 ## IOU of 5-Folds-CV,10-Folds-CV 
 ##### 5-Folds-CV:<br />
