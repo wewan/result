@@ -1,9 +1,9 @@
 # Result
-## Usefull Material to be tried 
+## Usefull Material to be tried (important)
 * **[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)**<br />
 * **[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
 Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
-
+* **[Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)**
 ## Add Batch Normalization to Unet
 According
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) <br />
