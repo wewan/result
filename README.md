@@ -26,7 +26,7 @@ Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
 ### Pure Context
 **Context Parameter**:<br />
-*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
 **Network Structure**
 <img src="results/Unet1.png" width=1024 />
 
