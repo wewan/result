@@ -1,4 +1,7 @@
 # Result
+## Usefull Material to be tried 
+[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
+
 ## Add Batch Normalization to Unet
 According
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) <br />
@@ -13,6 +16,10 @@ The training dice accuracy is around [0.991 0.991] <br />
 The testing dice accuracy is around [0.802 0.831] <br />
 Summary:
 <img src="results/train1image.png" width=1024 />
+Repeated:
+<img src="results/train1image_repeated.png" width=1024 />
+**Conlucsion: result could varies a bit from training**
+
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
 ### Pure Context
