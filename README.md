@@ -1,9 +1,10 @@
 # result
-result of unet
 ##  training 1 images
 The training dice accuracy is around 0.99 <br />
 The testing dice accuracy is around 0.80-0.83 <br />
-<img src="results/Trian1Image_valid1.png" width=1024 />
+<img src="results/train1image.png" width=1024 />
+Test Images:
+<img src="results/Train1Image_valid1.png" width=1024 />
 <img src="results/Trian1Image_valid2.png" width=1024 />
 
 ## IOU of 5-Folds-CV,10-Folds-CV 
