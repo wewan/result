@@ -66,8 +66,14 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 ## EXTERNTION
 
 <img src="results/RUNET.png" width=1024 />
+Training acc :0.99
+Testing acc : 0.01 -0.70
+**Unstable**
 
 <img src="results/RUNET_1.png" width=1024 />
+Training acc :0.99
+Testing acc : 0.4 -0.90
+**Unstable(better than 0)**
 
 
 
