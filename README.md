@@ -1,7 +1,7 @@
 # result
 ##  training 1 images
 The training dice accuracy is around 0.99 <br />
-The testing dice accuracy is around 0.80-0.83 <br />
+The testing dice accuracy is around [0.80 0.83] <br />
 <img src="results/train1image.png" width=1024 />
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
