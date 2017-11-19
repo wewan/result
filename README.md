@@ -16,8 +16,8 @@ Summary:
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
 #### Pure Context
-The training dice accuracy is around [0.991 0.991] <br />
-The testing dice accuracy is around [0.802 0.831] <br />
+The training dice accuracy is around [0.991 0.990] <br />
+The testing dice accuracy is around [0.7735 0.7686] <br />
 Summary:
 <img src="results/Train1image_summary.png" width=1024 />
 Test Images:
