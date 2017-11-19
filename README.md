@@ -1,9 +1,12 @@
 # result
 ## add Batch Normalization to Unet
-according
-[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) 
+According
+[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) <br />
 BN was added:
-<img src="results/train1image.png" width=1024 />
+<img src="results/BNdiff.png" width=1024 />
+<img src="results/BNdifftest.png" width=1024 />
+
+
 
 ##  training 1 images
 The training dice accuracy is around [0.991 0.991] <br />
