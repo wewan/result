@@ -27,6 +27,8 @@ Test Images:
 ### Pure Context
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30
+**Network Structure**
+<img src="results/Unet1.png" width=1024 />
 
 
 The training dice accuracy is around [0.991 0.990] <br />
