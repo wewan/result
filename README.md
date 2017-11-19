@@ -1,11 +1,12 @@
 # result
+## add Batch Normalization to Unet
+[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) 
 ##  training 1 images
 The training dice accuracy is around [0.991 0.991] <br />
 The testing dice accuracy is around [0.802 0.831] <br />
 <img src="results/train1image.png" width=1024 />
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
-<img src="results/Trian1Image_valid2.png" width=1024 />
 
 ## IOU of 5-Folds-CV,10-Folds-CV 
 ##### 5-Folds-CV:<br />
