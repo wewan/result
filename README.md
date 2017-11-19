@@ -61,6 +61,47 @@ Ref[Object Skeleton Extraction in Natural Images by Fusing Scale-associated Deep
 Side Outputs
 Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemental/Shen_Object_Skeleton_Extraction_2016_CVPR_supplemental.pdf)
 
+
+
+## EXTERNTION
+
+<img src="results/RUNET.png" width=1024 />
+
+<img src="results/Train1image_summary.png" width=1024 />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## IOU of 5-Folds-CV,10-Folds-CV 
 ##### 5-Folds-CV:<br />
 The dice accuracy of training is around 0.98 <br />
