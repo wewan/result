@@ -16,7 +16,9 @@ Summary:
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
 ### Pure Context
-**Context Parameter**
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30
+
 
 The training dice accuracy is around [0.991 0.990] <br />
 The testing dice accuracy is around [0.7735 0.7686] <br />
