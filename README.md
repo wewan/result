@@ -1,4 +1,9 @@
 # Result
+## Usefull Material to be Tried (Important)
+* **[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)**<br />
+* **[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
+Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
+* **[Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)**
 ## Add Batch Normalization to Unet
 According
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) <br />
@@ -7,17 +12,27 @@ According
 (Testing)&nbsp; **Orange**: BN after Relu  &nbsp;&nbsp;  **Green**: BN before Relu &nbsp;&nbsp;  **Blue**: without BN
 <img src="results/BNdifftest.png" width=1024 />
 
-##  training 1 images
-#### Pure training
+##  Training 1 Image
+### Pure training
 The training dice accuracy is around [0.991 0.991] <br />
 The testing dice accuracy is around [0.802 0.831] <br />
 Summary:
 <img src="results/train1image.png" width=1024 />
+Repeated:
+<img src="results/train1image_repeated.png" width=1024 />
+**Conlucsion: result could varies a bit from training**
+
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
-#### Pure Context
-The training dice accuracy is around [0.991 0.991] <br />
-The testing dice accuracy is around [0.802 0.831] <br />
+### Pure Context
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+**Network Structure**
+<img src="results/Unet1.png" width=1024 />
+
+
+The training dice accuracy is around [0.991 0.990] <br />
+The testing dice accuracy is around [0.7735 0.7686] <br />
 Summary:
 <img src="results/Train1image_summary.png" width=1024 />
 Test Images:
