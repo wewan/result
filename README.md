@@ -1,5 +1,5 @@
-# result
-## add Batch Normalization to Unet
+# Result
+## Add Batch Normalization to Unet
 According
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) <br />
 (Training) &nbsp;**Grey**: BN after Relu &nbsp;&nbsp;  **Pink**: BN before Relu &nbsp;&nbsp;   **Red**: without BN 
