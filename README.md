@@ -28,7 +28,7 @@ Test Images:
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
 **Network Structure**
-<img src="results/Unet1.png" width=1024 />
+<img src="results/unet1.png" width=1024 />
 
 
 The training dice accuracy is around [0.991 0.990] <br />
@@ -39,8 +39,20 @@ Test Images:
 <img src="results/Train1img_puretrain_test.png" width=1024 />
 
 ### Zero Cross Context
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+**Network Structure**:same with above
+*Training*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.7 | 0.8|0.8
+**2**|0.7 | 0.8|0.8
+
+The testing dice accuracy is around [0.7735 0.7686] <br />
 
 ### To be tried 
+<img src="results/MSfcn.png" width=1024 />
 
 
 
