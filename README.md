@@ -7,15 +7,17 @@ According
 (Testing)&nbsp; **Orange**: BN after Relu  &nbsp;&nbsp;  **Green**: BN before Relu &nbsp;&nbsp;  **Blue**: without BN
 <img src="results/BNdifftest.png" width=1024 />
 
-##  training 1 images
-#### Pure training
+##  Training 1 Image
+### Pure training
 The training dice accuracy is around [0.991 0.991] <br />
 The testing dice accuracy is around [0.802 0.831] <br />
 Summary:
 <img src="results/train1image.png" width=1024 />
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
-#### Pure Context
+### Pure Context
+**Context Parameter**
+
 The training dice accuracy is around [0.991 0.990] <br />
 The testing dice accuracy is around [0.7735 0.7686] <br />
 Summary:
