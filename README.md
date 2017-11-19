@@ -1,8 +1,8 @@
 # Result
 ## Usefull Material to be tried 
-[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)
-[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
-Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)
+**1:[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)<br />
+2:[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
+Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
 
 ## Add Batch Normalization to Unet
 According
