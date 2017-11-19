@@ -67,7 +67,7 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 
 <img src="results/RUNET.png" width=1024 />
 
-<img src="results/Train1image_summary.png" width=1024 />
+<img src="results/RUNET_1.png" width=1024 />
 
 
 
