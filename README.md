@@ -52,7 +52,9 @@ Test Images:
 The testing dice accuracy is around [0.7735 0.7686] <br />
 
 ### To be tried 
+
 <img src="results/MSfcn.png" width=1024 />
+
 **combined loss from different layers**
 
 
