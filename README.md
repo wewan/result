@@ -24,9 +24,22 @@ Repeated:
 
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
-### Pure Context
+### Pure Context 1
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+First is train image<br />
+<img src="results/shapecontex_train.png" width=210 />
+<img src="results/shapecontext_valid.png" width=210 />
+<img src="results/shapecontext_valid_2.png" width=210 />
+<img src="results/shapecontext_valid_3.png" width=210 />
+<img src="results/shapecontext_valid_4.png" width=210 />
+<img src="results/shapecontex_valid_5.png" width=210 />
+<img src="results/shapecontext_valid_6.png" width=210 />
+<img src="results/shapecontext_valid_7.png" width=210 />
+
+
+
+
 **Network Structure**
 <img src="results/unet1.png" width=1024 />
 
@@ -59,6 +72,16 @@ Test Images:
 Summary:
 <img src="results/Train1image_zerocross_summary.png" width=1024 />
 
+### Pure Context 2
+**Context Parameter**:<br />
+*model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
+First is train image<br />
+<img src="results/shapecontext_valid2_train.png" width=210 />
+<img src="results/shapecontext_valid2_1.png" width=210 />
+<img src="results/shapecontex_valid2_2.png" width=210 />
+<img src="results/shapecontext_valid2_3.png" width=210 />
+<img src="results/shapecontext_valid2_4.png" width=210 />
+<img src="results/shapecontext_valid2_5.png" width=210 />
 ### To be tried 
 
 <img src="results/MSfcn.png" width=1024 />
@@ -73,21 +96,26 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 
 ## EXTERNTION
 
-Self-cycle three times:
+Self-cycle three times:<br />
+20folds Training acc :0.97-0.99<br />
+20folds Testing acc : 0.01-0.70<br />
+**Unstable**<br />
 <img src="results/RUNET.png" width=1024 />
-20folds Training acc :0.97-0.99
-20folds Testing acc : 0.01-0.70
-**Unstable**
 
-Self-cycle three times:
+
+Self-cycle three times:<br />
+20flods Training acc :0.97-0.99<br />
+20folds Testing acc : 0.40-0.90<br />
+**Unstable(better than 0)**<br />
 <img src="results/RUNET_1.png" width=1024 />
-20flods Training acc :0.97-0.99
-20folds Testing acc : 0.40-0.90
-**Unstable(better than 0)**
 
+20folds Training 0.97-0.99<br />
+20folds Testing  ----0.85 (min 0.69 max 0.9)<br />
 <img src="results/runet_2.png" width=1024 />
-20folds Training 0.97-0.99
-20folds Testing  ----0.85 (min 0.69 max 0.9)
+
+
+To try:
+MSFCN
 
 
 
