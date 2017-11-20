@@ -95,17 +95,32 @@ First is train image<br />
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
-**1**|0.988 | 0.991|0.9914
-**2**|0.9874 | 0.9902|0.9910
+**1**|0.9878 | 0.9909|0.9914
+**2**|0.9881 | 0.9907|0.9910
 
 *The testing*:<br />
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
-**1**|0.5825 | 0.8077|0.8046
-**2**|0.010 | 0.7961|0.7916
+**1**|0.4432 | 0.7747|0.7662
+**2**|0.5603 | 0.7777|0.7775
+
+Summary:
+<img src="results/zeroscross2_summary.png" width=1024 />
+Zero Images-fold1&fold2:<br />
+<img src="results/contextimg2_zeros1.png" width=430 />
+<img src="results/contextimg2_zeros2.png" width=430 />
+
+Zero Cross Images-fold1&fold2:<br />
+<img src="results/contextimg2_all1.png" width=430 />
+<img src="results/contextimgs2_all2.png" width=430 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/contextimg2_valid1.png" width=430 />
+<img src="results/contextimg2_valid2.png" width=430 />
 
 ### To be tried 
+* change zeros to random 
 
 <img src="results/MSfcn.png" width=1024 />
 
