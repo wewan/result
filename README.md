@@ -4,7 +4,7 @@
 * **[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
 Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
 * **[Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)**
-## Add Batch Normalization to Unet
+## Add Batch Normalization to Unet Layers
 According
 [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167) <br />
 (Training) &nbsp;**Grey**: BN after Relu &nbsp;&nbsp;  **Pink**: BN before Relu &nbsp;&nbsp;   **Red**: without BN 
@@ -129,6 +129,10 @@ Zero Cross Images-fold1&fold2:<br />
 Context Images-fold1&fold2:<br />
 <img src="results/contextimg2_valid1.png" width=430 />
 <img src="results/contextimg2_valid2.png" width=430 />
+#### diff
+* Pure unet outcome with groud truth(Pred - Ground Truth)
+* Zero context outcome with ground truth(Pred - Ground Truth)
+* Pure unet outcome with Zero context
 
 ### Zero Cross Context 3
 **Context Parameter**:<br />
@@ -145,15 +149,15 @@ First is train image<br />
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
-**1**|0.9899 | 0.9914| -
-**2**|0.9881 | 0.9907| -
+**1**|0.9899 | 0.9914| &nbsp;-
+**2**|0.9881 | 0.9907| &nbsp;-
 
 *The testing*:<br />
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
-**1**|0.2639 | 0.8008| -
-**2**|0.5603 | 0.7777| -
+**1**|0.2639 | 0.8008| &nbsp;-
+**2**|0.5603 | 0.7777| &nbsp;-
 
 Summary:
 <img src="results/zeroscross2_summary.png" width=1024 />
@@ -186,28 +190,26 @@ First is train image<br />
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.9899 | 0.9914| -
-**2**|0.9881 | 0.9907| -
+**2**|0.9896 | 0.9910| -
 
 *The testing*:<br />
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.2639 | 0.8008| -
-**2**|0.5603 | 0.7777| -
+**2**|0.0063 | 0.8005| -
 
 Summary:
-<img src="results/zeroscross2_summary.png" width=1024 />
+<img src="results/Train1image_zerocross3_summary.png" width=1024 />
+
 Zero Images-fold1&fold2:<br />
-<img src="results/contextimg2_zeros1.png" width=430 />
-<img src="results/contextimg2_zeros2.png" width=430 />
+<img src="results/contextimage3_zeros1.png" width=430 />
+<img src="results/contextimage3_zeros2.png" width=430 />
 
 Zero Cross Images-fold1&fold2:<br />
-<img src="results/contextimg2_all1.png" width=430 />
-<img src="results/contextimgs2_all2.png" width=430 />
+<img src="results/contextimage3_all1.png" width=430 />
+<img src="results/contextimage3_all2.png" width=430 />
 
-Context Images-fold1&fold2:<br />
-<img src="results/contextimg2_valid1.png" width=430 />
-<img src="results/contextimg2_valid2.png" width=430 />
 
 
 ## EXTERNTION
