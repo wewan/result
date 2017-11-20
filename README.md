@@ -119,18 +119,6 @@ Context Images-fold1&fold2:<br />
 <img src="results/contextimg2_valid1.png" width=430 />
 <img src="results/contextimg2_valid2.png" width=430 />
 
-### To be tried 
-* change zeros to random 
-
-<img src="results/MSfcn.png" width=1024 />
-
-**combined loss from different layers(used in MSFCN)**
-<img src="results/combined_loss.png" width=512 /><br />
-Ref: [Object Skeleton Extraction in Natural Images by Fusing Scale-associated Deep
-Side Outputs
-Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemental/Shen_Object_Skeleton_Extraction_2016_CVPR_supplemental.pdf)
-
-
 
 ## EXTERNTION
 
@@ -155,8 +143,22 @@ Self-cycle three times:<br />
 <img src="results/runet_2.png" width=1024 />
 
 
-To try:
-MSFCN
+### To be tried 
+* change zeros to random 
+
+<img src="results/MSfcn.png" width=1024 />
+
+**combined loss from different layers(used in MSFCN)**
+<img src="results/combined_loss.png" width=512 /><br />
+Ref: [Object Skeleton Extraction in Natural Images by Fusing Scale-associated Deep
+Side Outputs
+Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemental/Shen_Object_Skeleton_Extraction_2016_CVPR_supplemental.pdf)
+
+* structure1
+<img src="results/unet_cat.png" width=1024 />
+* structure2
+<img src="results/unet_catloss.png" width=1024 />
+
 
 
 
