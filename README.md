@@ -66,15 +66,15 @@ Test Images:
 
 Summary:
 <img src="results/Train1image_zerocross_summary.png" width=1024 />
-Zero Images-fold1&fold2:
+Zero Images-fold1&fold2:<br />
 <img src="results/train1image_zeros.png" width=500 />
 <img src="results/train1image_zeros_2.png" width=500 />
 
-Zero Cross Images-fold1&fold2:
+Zero Cross Images-fold1&fold2:<br />
 <img src="results/train1image_all.png" width=500 />
 <img src="results/train1image_all_1.png" width=500 />
 
-Context Images-fold1&fold2:
+Context Images-fold1&fold2:<br />
 <img src="results/train1image_zerocross.png" width=500 />
 <img src="results/train1image_zerocross_2.png" width=500 />
 
