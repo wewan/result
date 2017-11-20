@@ -149,46 +149,6 @@ First is train image<br />
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
-**1**|0.9899 | 0.9914| &nbsp;-
-**2**|0.9881 | 0.9907| &nbsp;-
-
-*The testing*:<br />
-
-||ZEROS        | CROSS         |CONTEXT
-|------------ |------------ | ------------- | -------------
-**1**|0.2639 | 0.8008| &nbsp;-
-**2**|0.5603 | 0.7777| &nbsp;-
-
-Summary:
-<img src="results/zeroscross2_summary.png" width=1024 />
-Zero Images-fold1&fold2:<br />
-<img src="results/contextimg2_zeros1.png" width=430 />
-<img src="results/contextimg2_zeros2.png" width=430 />
-
-Zero Cross Images-fold1&fold2:<br />
-<img src="results/contextimg2_all1.png" width=430 />
-<img src="results/contextimgs2_all2.png" width=430 />
-
-Context Images-fold1&fold2:<br />
-<img src="results/contextimg2_valid1.png" width=430 />
-<img src="results/contextimg2_valid2.png" width=430 />
-
-### Rand Cross Context 
-### Zero Cross Context 3
-**Context Parameter**:<br />
-*model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
-First is train image<br />
-<img src="results/shapecontext_valid2_train.png" width=280 />
-<img src="results/shapecontext_valid2_1.png" width=280 />
-<img src="results/shapecontex_valid2_2.png" width=280 />
-<img src="results/shapecontext_valid2_3.png" width=280 />
-<img src="results/shapecontext_valid2_4.png" width=280 />
-<img src="results/shapecontext_valid2_5.png" width=280 />
-
-*Training*:<br />
-
-||ZEROS        | CROSS         |CONTEXT
-|------------ |------------ | ------------- | -------------
 **1**|0.9899 | 0.9914| -
 **2**|0.9896 | 0.9910| -
 
@@ -210,6 +170,7 @@ Zero Cross Images-fold1&fold2:<br />
 <img src="results/contextimage3_all1.png" width=430 />
 <img src="results/contextimage3_all2.png" width=430 />
 
+### Rand Cross Context 
 
 
 ## EXTERNTION
