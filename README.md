@@ -138,7 +138,7 @@ Context Images-fold1&fold2:<br />
 * Zero context outcome (final zeros cross outcome)with ground truth(Pred - Ground Truth)
 <img src="results/diff_zeroscontextandgroundtruth.png" width=1024 />
 
-* Pure unet outcome with Zero context
+* Pure unet outcome with Zero context(Pure - Context)
 <img src="results/diff_zerosandpure.png" width=1024 />
 
 
