@@ -97,7 +97,7 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 ## EXTERNTION
 
 Unet-iner:
-<img src="results/unet_iner.png" width=1024 />
+<img src="results/runet_iner.png" width=1024 />
 
 Self-cycle three times:<br />
 20folds Training acc :0.97-0.99<br />
