@@ -188,8 +188,43 @@ Random Cross Images-fold1&fold2:<br />
 <img src="results/contextimage3_all1.png" width=430 />
 <img src="results/contextimage3_all2.png" width=430 />
 
-### Zeros Cross Context 
+### Zeros Cross Context 3
+**Context Parameter**:<br />
+*model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
+First is train image<br />
+same with Random Cross Context
+<img src="results/shapecontext3_train.png" width=210 />
+<img src="results/shapecontext3_valid1.png" width=210 />
+<img src="results/shapecontext3_valid2.png" width=210 />
+<img src="results/shapecontext3_valid3.png" width=210 />
+<img src="results/shapecontext3_valid4.png" width=210 />
+<img src="results/shapecontext3_valid5.png" width=210 />
+<img src="results/shapecontext3_valid6.png" width=210 />
+<img src="results/context3_valid7.png" width=210 />
+*Training*:<br />
 
+||Zeros        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.9900 | 0.9916| -
+**2**|0.9889 | 0.9912| -
+
+*The testing*:<br />
+
+||Zeros        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.0003 | 0.8529| -
+**2**|0.0008 | 0.8788| -
+
+Summary:
+<img src="results/realzerocross3_summary.png" width=1024 />
+
+Random Images-fold1&fold2:<br />
+<img src="results/realzeroscross3_zeros1.png" width=430 />
+<img src="results/realzeroscross3_zeros2.png" width=430 />
+
+Random Cross Images-fold1&fold2:<br />
+<img src="results/realzeroscross3_all1.png" width=430 />
+<img src="results/realzeroscross3_all2.png" width=430 />
 
 ## EXTENSION
 
