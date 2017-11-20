@@ -24,18 +24,18 @@ Repeated:
 
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
-### Pure Context
+### Pure Context 1
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
 First is train image<br />
-<img src="results/shapecontex_train.png" width=200 />
-<img src="results/shapecontext_valid.png" width=200 />
-<img src="results/shapecontext_valid_2.png" width=200 />
-<img src="results/shapecontext_valid_3.png" width=200 />
-<img src="results/shapecontext_valid_4.png" width=200 />
-<img src="results/shapecontex_valid_5.png" width=200 />
-<img src="results/shapecontext_valid_6.png" width=200 />
-<img src="results/shapecontext_valid_7.png" width=200 />
+<img src="results/shapecontex_train.png" width=210 />
+<img src="results/shapecontext_valid.png" width=210 />
+<img src="results/shapecontext_valid_2.png" width=210 />
+<img src="results/shapecontext_valid_3.png" width=210 />
+<img src="results/shapecontext_valid_4.png" width=210 />
+<img src="results/shapecontex_valid_5.png" width=210 />
+<img src="results/shapecontext_valid_6.png" width=210 />
+<img src="results/shapecontext_valid_7.png" width=210 />
 
 
 
@@ -72,6 +72,16 @@ Test Images:
 Summary:
 <img src="results/Train1image_zerocross_summary.png" width=1024 />
 
+### Pure Context 2
+**Context Parameter**:<br />
+*model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
+First is train image<br />
+<img src="results/shapecontext_valid2_train.png" width=210 />
+<img src="results/shapecontext_valid2_1.png" width=210 />
+<img src="results/shapecontex_valid2_2.png" width=210 />
+<img src="results/shapecontext_valid2_3.png" width=210 />
+<img src="results/shapecontext_valid2_4.png" width=210 />
+<img src="results/shapecontext_valid2_5.png" width=210 />
 ### To be tried 
 
 <img src="results/MSfcn.png" width=1024 />
