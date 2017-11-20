@@ -130,7 +130,8 @@ Context Images-fold1&fold2:<br />
 <img src="results/contextimg2_valid1.png" width=430 />
 <img src="results/contextimg2_valid2.png" width=430 />
 #### Diff
-* Pure unet outcome (without context )with groud truth(Pred - Ground Truth)
+* Pure unet outcome (without context )with groud truth(Pred - Ground Truth)<br />
+"black" means outside part of ground truth 
 <img src="results/diff_purewithgroundtruth.png" width=1024 />
 
 
