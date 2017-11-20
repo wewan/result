@@ -21,9 +21,20 @@ Summary:
 Repeated:
 <img src="results/train1image_repeated.png" width=1024 />
 **Conlucsion: result could varies a bit from training**
-
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
+### Context Methods
+* **structure**<br /> Connect Ways, Inputs, layer numbers, dropouts, loss should be adjust 
+<img src="results/unet_methods.png" width=1024 />
+
+* **Context Generator** (**MiaLab**)<br /> 
+Generating context influence the outcome a lot. Changing parameters(*model weight*  &nbsp;*CurvatureWeighting*  &nbsp;*MaxIteration* &nbsp; *MaxInitialIteration*) correctly to get around this.
+
+* **Training Ways**<br /> 
+  * pure context
+  * zero cross context
+  * random cross context
+
 ### Pure Context 
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
@@ -104,6 +115,85 @@ First is train image<br />
 |------------ |------------ | ------------- | -------------
 **1**|0.4432 | 0.7747|0.7662
 **2**|0.5603 | 0.7777|0.7775
+
+Summary:
+<img src="results/zeroscross2_summary.png" width=1024 />
+Zero Images-fold1&fold2:<br />
+<img src="results/contextimg2_zeros1.png" width=430 />
+<img src="results/contextimg2_zeros2.png" width=430 />
+
+Zero Cross Images-fold1&fold2:<br />
+<img src="results/contextimg2_all1.png" width=430 />
+<img src="results/contextimgs2_all2.png" width=430 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/contextimg2_valid1.png" width=430 />
+<img src="results/contextimg2_valid2.png" width=430 />
+
+### Zero Cross Context 3
+**Context Parameter**:<br />
+*model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
+First is train image<br />
+<img src="results/shapecontext_valid2_train.png" width=280 />
+<img src="results/shapecontext_valid2_1.png" width=280 />
+<img src="results/shapecontex_valid2_2.png" width=280 />
+<img src="results/shapecontext_valid2_3.png" width=280 />
+<img src="results/shapecontext_valid2_4.png" width=280 />
+<img src="results/shapecontext_valid2_5.png" width=280 />
+
+*Training*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.9899 | 0.9914| -
+**2**|0.9881 | 0.9907| -
+
+*The testing*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.2639 | 0.8008| -
+**2**|0.5603 | 0.7777| -
+
+Summary:
+<img src="results/zeroscross2_summary.png" width=1024 />
+Zero Images-fold1&fold2:<br />
+<img src="results/contextimg2_zeros1.png" width=430 />
+<img src="results/contextimg2_zeros2.png" width=430 />
+
+Zero Cross Images-fold1&fold2:<br />
+<img src="results/contextimg2_all1.png" width=430 />
+<img src="results/contextimgs2_all2.png" width=430 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/contextimg2_valid1.png" width=430 />
+<img src="results/contextimg2_valid2.png" width=430 />
+
+### Rand Cross Context 
+### Zero Cross Context 3
+**Context Parameter**:<br />
+*model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
+First is train image<br />
+<img src="results/shapecontext_valid2_train.png" width=280 />
+<img src="results/shapecontext_valid2_1.png" width=280 />
+<img src="results/shapecontex_valid2_2.png" width=280 />
+<img src="results/shapecontext_valid2_3.png" width=280 />
+<img src="results/shapecontext_valid2_4.png" width=280 />
+<img src="results/shapecontext_valid2_5.png" width=280 />
+
+*Training*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.9899 | 0.9914| -
+**2**|0.9881 | 0.9907| -
+
+*The testing*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.2639 | 0.8008| -
+**2**|0.5603 | 0.7777| -
 
 Summary:
 <img src="results/zeroscross2_summary.png" width=1024 />
