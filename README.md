@@ -37,13 +37,8 @@ First is train image<br />
 <img src="results/shapecontext_valid_6.png" width=210 />
 <img src="results/shapecontext_valid_7.png" width=210 />
 
-
-
-
 **Network Structure**
 <img src="results/unet1.png" width=1024 />
-
-
 The training dice accuracy is around [0.991 0.990] <br />
 The testing dice accuracy is around [0.7735 0.7686] <br />
 Summary:
@@ -71,18 +66,61 @@ Test Images:
 
 Summary:
 <img src="results/Train1image_zerocross_summary.png" width=1024 />
+Zero Images-fold1&fold2:<br />
+<img src="results/train1image_zeros.png" width=430 />
+<img src="results/train1image_zeros_2.png" width=430 />
+
+Zero Cross Images-fold1&fold2:<br />
+<img src="results/train1image_all.png" width=430 />
+<img src="results/train1image_all_1.png" width=430 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/train1image_zerocross.png" width=430 />
+<img src="results/train1image_zerocross_2.png" width=430 />
+
+
 
 ### Pure Context 2
 **Context Parameter**:<br />
 *model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
 First is train image<br />
-<img src="results/shapecontext_valid2_train.png" width=210 />
-<img src="results/shapecontext_valid2_1.png" width=210 />
-<img src="results/shapecontex_valid2_2.png" width=210 />
-<img src="results/shapecontext_valid2_3.png" width=210 />
-<img src="results/shapecontext_valid2_4.png" width=210 />
-<img src="results/shapecontext_valid2_5.png" width=210 />
+<img src="results/shapecontext_valid2_train.png" width=280 />
+<img src="results/shapecontext_valid2_1.png" width=280 />
+<img src="results/shapecontex_valid2_2.png" width=280 />
+<img src="results/shapecontext_valid2_3.png" width=280 />
+<img src="results/shapecontext_valid2_4.png" width=280 />
+<img src="results/shapecontext_valid2_5.png" width=280 />
+
+*Training*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.9878 | 0.9909|0.9914
+**2**|0.9881 | 0.9907|0.9910
+
+*The testing*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.4432 | 0.7747|0.7662
+**2**|0.5603 | 0.7777|0.7775
+
+Summary:
+<img src="results/zeroscross2_summary.png" width=1024 />
+Zero Images-fold1&fold2:<br />
+<img src="results/contextimg2_zeros1.png" width=430 />
+<img src="results/contextimg2_zeros2.png" width=430 />
+
+Zero Cross Images-fold1&fold2:<br />
+<img src="results/contextimg2_all1.png" width=430 />
+<img src="results/contextimgs2_all2.png" width=430 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/contextimg2_valid1.png" width=430 />
+<img src="results/contextimg2_valid2.png" width=430 />
+
 ### To be tried 
+* change zeros to random 
 
 <img src="results/MSfcn.png" width=1024 />
 
@@ -95,6 +133,9 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 
 
 ## EXTERNTION
+
+Unet-iner:
+<img src="results/runet_iner.png" width=1024 />
 
 Self-cycle three times:<br />
 20folds Training acc :0.97-0.99<br />
