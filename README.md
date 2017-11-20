@@ -73,15 +73,25 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 
 ## EXTERNTION
 
+Self-cycle three times:
 <img src="results/RUNET.png" width=1024 />
-Training acc :0.99
-Testing acc : 0.01 -0.70
+20folds Training acc :0.97-0.99
+20folds Testing acc : 0.01-0.70
 **Unstable**
 
+Self-cycle three times:
 <img src="results/RUNET_1.png" width=1024 />
-Training acc :0.99
-Testing acc : 0.4 -0.90
+20flods Training acc :0.97-0.99
+20folds Testing acc : 0.40-0.90
 **Unstable(better than 0)**
+
+<img src="results/runet_2.png" width=1024 />
+20folds Training 0.97-0.99
+20folds Testing  ----0.85 (min 0.69 max 0.9)
+
+
+
+
 
 
 
