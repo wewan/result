@@ -57,20 +57,28 @@ Summary:
 Test Images:
 <img src="results/Train1img_puretrain_test.png" width=1024 />
 
-### Zero Cross Context 1
+### Random Cross Context 1
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+<img src="results/shapecontex_train.png" width=210 />
+<img src="results/shapecontext_valid.png" width=210 />
+<img src="results/shapecontext_valid_2.png" width=210 />
+<img src="results/shapecontext_valid_3.png" width=210 />
+<img src="results/shapecontext_valid_4.png" width=210 />
+<img src="results/shapecontex_valid_5.png" width=210 />
+<img src="results/shapecontext_valid_6.png" width=210 />
+<img src="results/shapecontext_valid_7.png" width=210 />
 **Network Structure**:same with above
 *Training*:<br />
 
-||ZEROS        | CROSS         |CONTEXT
+||Random        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.988 | 0.991|0.9914
 **2**|0.9874 | 0.9902|0.9910
 
 *The testing*:<br />
 
-||ZEROS        | CROSS         |CONTEXT
+||Random        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.5825 | 0.8077|0.8046
 **2**|0.010 | 0.7961|0.7916
@@ -79,11 +87,11 @@ Summary:<br />
 (from folds 2, it indicats test acc could converge to **0** some times when training with zeros)
 <img src="results/Train1image_zerocross_summary.png" width=1024 />
 
-Zero Images-fold1&fold2:<br />
+Random Images-fold1&fold2:<br />
 <img src="results/train1image_zeros.png" width=430 />
 <img src="results/train1image_zeros_2.png" width=430 />
 
-Zero Cross Images-fold1&fold2:<br />
+Random Cross Images-fold1&fold2:<br />
 <img src="results/train1image_all.png" width=430 />
 <img src="results/train1image_all_1.png" width=430 />
 
@@ -91,7 +99,7 @@ Context Images-fold1&fold2:<br />
 <img src="results/train1image_zerocross.png" width=430 />
 <img src="results/train1image_zerocross_2.png" width=430 />
 
-### Zero Cross Context 2
+### Random Cross Context 2
 **Context Parameter**:<br />
 *model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
 First is train image<br />
@@ -104,25 +112,25 @@ First is train image<br />
 
 *Training*:<br />
 
-||ZEROS        | CROSS         |CONTEXT
+||Random       | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.9878 | 0.9909|0.9914
 **2**|0.9881 | 0.9907|0.9910
 
 *The testing*:<br />
 
-||ZEROS        | CROSS         |CONTEXT
+||Random        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.4432 | 0.7747|0.7662
 **2**|0.5603 | 0.7777|0.7775
 
 Summary:
 <img src="results/zeroscross2_summary.png" width=1024 />
-Zero Images-fold1&fold2:<br />
+Random Images-fold1&fold2:<br />
 <img src="results/contextimg2_zeros1.png" width=430 />
 <img src="results/contextimg2_zeros2.png" width=430 />
 
-Zero Cross Images-fold1&fold2:<br />
+Random Cross Images-fold1&fold2:<br />
 <img src="results/contextimg2_all1.png" width=430 />
 <img src="results/contextimgs2_all2.png" width=430 />
 
@@ -135,14 +143,14 @@ Context Images-fold1&fold2:<br />
 <img src="results/diff_purewithgroundtruth.png" width=1024 />
 
 
-* Zero context outcome (final zeros cross outcome)with ground truth(Pred - Ground Truth)
+* Random context outcome (final Random cross outcome)with ground truth(Pred - Ground Truth)
 <img src="results/diff_zeroscontextandgroundtruth.png" width=1024 />
 
-* Pure unet outcome with Zero context(Pure - Context)
+* Pure unet outcome with Random context(Pure - Context)
 <img src="results/diff_zerosandpure.png" width=1024 />
 
 
-### Zero Cross Context 3
+### Random Cross Context 3
 **Context Parameter**:<br />
 *model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
 First is train image<br />
@@ -157,14 +165,14 @@ First is train image<br />
 
 *Training*:<br />
 
-||ZEROS        | CROSS         |CONTEXT
+||Random        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.9899 | 0.9914| -
 **2**|0.9896 | 0.9910| -
 
 *The testing*:<br />
 
-||ZEROS        | CROSS         |CONTEXT
+||Random        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
 **1**|0.2639 | 0.8008| -
 **2**|0.0063 | 0.8005| -
@@ -172,42 +180,76 @@ First is train image<br />
 Summary:
 <img src="results/Train1image_zerocross3_summary.png" width=1024 />
 
-Zero Images-fold1&fold2:<br />
+Random Images-fold1&fold2:<br />
 <img src="results/contextimage3_zeros1.png" width=430 />
 <img src="results/contextimage3_zeros2.png" width=430 />
 
-Zero Cross Images-fold1&fold2:<br />
+Random Cross Images-fold1&fold2:<br />
 <img src="results/contextimage3_all1.png" width=430 />
 <img src="results/contextimage3_all2.png" width=430 />
 
-### Rand Cross Context 
+### Zeros Cross Context 3
+**Context Parameter**:<br />
+*model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
+First is train image<br />
+same with Random Cross Context
+<img src="results/shapecontext3_train.png" width=210 />
+<img src="results/shapecontext3_valid1.png" width=210 />
+<img src="results/shapecontext3_valid2.png" width=210 />
+<img src="results/shapecontext3_valid3.png" width=210 />
+<img src="results/shapecontext3_valid4.png" width=210 />
+<img src="results/shapecontext3_valid5.png" width=210 />
+<img src="results/shapecontext3_valid6.png" width=210 />
+<img src="results/context3_valid7.png" width=210 />
+*Training*:<br />
 
+||Zeros        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.9900 | 0.9916| -
+**2**|0.9889 | 0.9912| -
 
-## EXTERNTION
+*The testing*:<br />
+
+||Zeros        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.0003 | 0.8529| -
+**2**|0.0008 | 0.8788| -
+
+Summary:
+<img src="results/realzerocross3_summary.png" width=1024 />
+
+Random Images-fold1&fold2:<br />
+<img src="results/realzeroscross3_zeros1.png" width=430 />
+<img src="results/realzeroscross3_zeros2.png" width=430 />
+
+Random Cross Images-fold1&fold2:<br />
+<img src="results/realzeroscross3_all1.png" width=430 />
+<img src="results/realzeroscross3_all2.png" width=430 />
+
+## EXTENSION
 
 Unet-iner:
 <img src="results/runet_iner.png" width=1024 />
 
 Self-cycle three times:<br />
-20folds Training acc :0.97-0.99<br />
-20folds Testing acc : 0.01-0.70<br />
+20 folds Training acc :0.97-0.99<br />
+20 folds Testing acc : 0.01-0.70<br />
 **Unstable**<br />
 <img src="results/RUNET.png" width=1024 />
 
 
 Self-cycle three times:<br />
-20flods Training acc :0.97-0.99<br />
-20folds Testing acc : 0.40-0.90<br />
+20 flods Training acc :0.97-0.99<br />
+20 folds Testing acc : 0.40-0.90<br />
 **Unstable(better than 0)**<br />
 <img src="results/RUNET_1.png" width=1024 />
 
-20folds Training 0.97-0.99<br />
-20folds Testing  ----0.85 (min 0.69 max 0.9)<br />
+20 folds Training 0.97-0.99<br />
+20 folds Testing  ----0.85 (min 0.69 max 0.9)<br />
 <img src="results/runet_2.png" width=1024 />
 
 
 ### To be tried 
-* change zeros to random 
 
 <img src="results/MSfcn.png" width=1024 />
 
