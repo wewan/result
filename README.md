@@ -27,7 +27,6 @@ Test Images:
 ### Pure Context
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
-<img src="results/shapecontex_train.png" width=1024 />
 First is train image
 <img src="results/shapecontex_train.png" width=400 />
 <img src="results/shapecontext_valid.png" width=400 />
