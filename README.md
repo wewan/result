@@ -192,7 +192,7 @@ Random Cross Images-fold1&fold2:<br />
 **Context Parameter**:<br />
 *model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
 First is train image<br />
-same with Random Cross Context
+same with Random Cross Context<br />
 <img src="results/shapecontext3_train.png" width=210 />
 <img src="results/shapecontext3_valid1.png" width=210 />
 <img src="results/shapecontext3_valid2.png" width=210 />
