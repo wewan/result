@@ -57,7 +57,7 @@ The testing dice accuracy is around [0.7735 0.7686] <br />
 
 **combined loss from different layers(used in MSFCN)**
 <img src="results/combined_loss.png" width=512 /><br />
-Ref[Object Skeleton Extraction in Natural Images by Fusing Scale-associated Deep
+Ref: [Object Skeleton Extraction in Natural Images by Fusing Scale-associated Deep
 Side Outputs
 Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemental/Shen_Object_Skeleton_Extraction_2016_CVPR_supplemental.pdf)
 
@@ -66,8 +66,14 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 ## EXTERNTION
 
 <img src="results/RUNET.png" width=1024 />
+Training acc :0.99
+Testing acc : 0.01 -0.70
+**Unstable**
 
 <img src="results/RUNET_1.png" width=1024 />
+Training acc :0.99
+Testing acc : 0.4 -0.90
+**Unstable(better than 0)**
 
 
 
