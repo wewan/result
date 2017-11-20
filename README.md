@@ -226,6 +226,18 @@ Random Cross Images-fold1&fold2:<br />
 <img src="results/realzeroscross3_all1.png" width=430 />
 <img src="results/realzeroscross3_all2.png" width=430 />
 
+#### Diff (zeros cross context & pure)
+* Pure unet outcome (without context )with groud truth(Pred - Ground Truth)<br />
+"black" means outside part of ground truth 
+<img src="results/diff_pure_TG.png" width=1024 />
+
+
+* Random context outcome (final Random cross outcome)with ground truth(Pred - Ground Truth)
+<img src="results/diff_zeroscontext_GT.png" width=1024 />
+
+* Pure unet outcome with Random context(Pure - Context)
+<img src="results/contextandpure.png" width=1024 />
+
 ## EXTENSION
 
 Unet-iner:
