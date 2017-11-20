@@ -191,7 +191,7 @@ Random Cross Images-fold1&fold2:<br />
 ### Zeros Cross Context 
 
 
-## EXTERNTION
+## EXTENSION
 
 Unet-iner:
 <img src="results/runet_iner.png" width=1024 />
