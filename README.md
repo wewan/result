@@ -46,10 +46,18 @@ Test Images:
 
 ||ZEROS        | CROSS         |CONTEXT
 |------------ |------------ | ------------- | -------------
-**1**|0.7 | 0.8|0.8
-**2**|0.7 | 0.8|0.8
+**1**|0.988 | 0.991|0.9914
+**2**|0.9874 | 0.9902|0.9910
 
-The testing dice accuracy is around [0.7735 0.7686] <br />
+*The testing*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.5825 | 0.8077|0.8046
+**2**|0.010 | 0.7961|0.7916
+
+Summary:
+<img src="results/Train1image_zerocross_summary.png" width=1024 />
 
 ### To be tried 
 
