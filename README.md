@@ -135,10 +135,11 @@ Context Images-fold1&fold2:<br />
 
 
 * Zero context outcome with ground truth(Pred - Ground Truth)
-<img src="results/diff_zerosandpure.png" width=1024 />
+<img src="results/diff_zeroscontextandgroundtruth.png" width=1024 />
 
 * Pure unet outcome with Zero context
-<img src="results/diff_zeroscontextandgroundtruth.png" width=1024 />
+<img src="results/diff_zerosandpure.png" width=1024 />
+
 
 ### Zero Cross Context 3
 **Context Parameter**:<br />
