@@ -24,7 +24,7 @@ Repeated:
 
 Test Images:
 <img src="results/Train1Image_valid1.png" width=1024 />
-### Pure Context 1
+### Pure Context 
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
 First is train image<br />
@@ -46,7 +46,7 @@ Summary:
 Test Images:
 <img src="results/Train1img_puretrain_test.png" width=1024 />
 
-### Zero Cross Context
+### Zero Cross Context 1
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
 **Network Structure**:same with above
@@ -80,7 +80,7 @@ Context Images-fold1&fold2:<br />
 
 
 
-### Pure Context 2
+### Zero Cross Context 2
 **Context Parameter**:<br />
 *model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
 First is train image<br />
