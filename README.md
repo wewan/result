@@ -75,8 +75,10 @@ Test Images:
 **1**|0.5825 | 0.8077|0.8046
 **2**|0.010 | 0.7961|0.7916
 
-Summary:
+Summary:<br />
+(from folds 2, it indicats test acc could converge to **0** some times when training with zeros)
 <img src="results/Train1image_zerocross_summary.png" width=1024 />
+
 Zero Images-fold1&fold2:<br />
 <img src="results/train1image_zeros.png" width=430 />
 <img src="results/train1image_zeros_2.png" width=430 />
@@ -88,8 +90,6 @@ Zero Cross Images-fold1&fold2:<br />
 Context Images-fold1&fold2:<br />
 <img src="results/train1image_zerocross.png" width=430 />
 <img src="results/train1image_zerocross_2.png" width=430 />
-
-
 
 ### Zero Cross Context 2
 **Context Parameter**:<br />
