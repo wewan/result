@@ -130,11 +130,11 @@ Context Images-fold1&fold2:<br />
 <img src="results/contextimg2_valid1.png" width=430 />
 <img src="results/contextimg2_valid2.png" width=430 />
 #### Diff
-* Pure unet outcome with groud truth(Pred - Ground Truth)
+* Pure unet outcome (without context )with groud truth(Pred - Ground Truth)
 <img src="results/diff_purewithgroundtruth.png" width=1024 />
 
 
-* Zero context outcome with ground truth(Pred - Ground Truth)
+* Zero context outcome (final zeros cross outcome)with ground truth(Pred - Ground Truth)
 <img src="results/diff_zeroscontextandgroundtruth.png" width=1024 />
 
 * Pure unet outcome with Zero context
