@@ -37,13 +37,8 @@ First is train image<br />
 <img src="results/shapecontext_valid_6.png" width=210 />
 <img src="results/shapecontext_valid_7.png" width=210 />
 
-
-
-
 **Network Structure**
 <img src="results/unet1.png" width=1024 />
-
-
 The training dice accuracy is around [0.991 0.990] <br />
 The testing dice accuracy is around [0.7735 0.7686] <br />
 Summary:
@@ -82,6 +77,21 @@ First is train image<br />
 <img src="results/shapecontext_valid2_3.png" width=280 />
 <img src="results/shapecontext_valid2_4.png" width=280 />
 <img src="results/shapecontext_valid2_5.png" width=280 />
+
+*Training*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.988 | 0.991|0.9914
+**2**|0.9874 | 0.9902|0.9910
+
+*The testing*:<br />
+
+||ZEROS        | CROSS         |CONTEXT
+|------------ |------------ | ------------- | -------------
+**1**|0.5825 | 0.8077|0.8046
+**2**|0.010 | 0.7961|0.7916
+
 ### To be tried 
 
 <img src="results/MSfcn.png" width=1024 />
