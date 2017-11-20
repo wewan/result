@@ -76,12 +76,12 @@ Summary:
 **Context Parameter**:<br />
 *model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
 First is train image<br />
-<img src="results/shapecontext_valid2_train.png" width=210 />
-<img src="results/shapecontext_valid2_1.png" width=210 />
-<img src="results/shapecontex_valid2_2.png" width=210 />
-<img src="results/shapecontext_valid2_3.png" width=210 />
-<img src="results/shapecontext_valid2_4.png" width=210 />
-<img src="results/shapecontext_valid2_5.png" width=210 />
+<img src="results/shapecontext_valid2_train.png" width=280 />
+<img src="results/shapecontext_valid2_1.png" width=280 />
+<img src="results/shapecontex_valid2_2.png" width=280 />
+<img src="results/shapecontext_valid2_3.png" width=280 />
+<img src="results/shapecontext_valid2_4.png" width=280 />
+<img src="results/shapecontext_valid2_5.png" width=280 />
 ### To be tried 
 
 <img src="results/MSfcn.png" width=1024 />
@@ -95,6 +95,9 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 
 
 ## EXTERNTION
+
+Unet-iner:
+<img src="results/unet_iner.png" width=1024 />
 
 Self-cycle three times:<br />
 20folds Training acc :0.97-0.99<br />
