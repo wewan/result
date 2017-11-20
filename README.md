@@ -115,18 +115,18 @@ Context Images-fold1&fold2:<br />
 ||Random        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.9868 | 0.9910|0.9915|**->0.991**
-**2**|0.9867 | 0.9906|  |**->0.991**
+**2**|0.9867 | 0.9906|0.9910  |**->0.991**
 
 *The testing*:<br />
 
 ||Random        | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.0110 | 0.8364|0.8822|**->0.802**
-**2**|0.0015 | 0.9048| |**->0.831**
+**2**|0.0015 | 0.9048| 0.8983|**->0.831**
 
 Summary:<br />
 (from folds 2, it indicats test acc could converge to **0** some times when training with zeros)
-<img src="results/Train1image_zerocross_summary.png" width=1024 />
+<img src="results/realzerocontext1_summary.png" width=1024 />
 
 Zeros Images-fold1&fold2:<br />
 <img src="results/realzeroscontext1_zeros1.png" width=430 />
@@ -138,7 +138,7 @@ Zeros Cross Images-fold1&fold2:<br />
 
 Context Images-fold1&fold2:<br />
 <img src="results/realzeroscontext1_valid1.png" width=430 />
-<img src="results/train1image_zerocross_2.png" width=430 />
+<img src="results/realzeroscontext1_valid2.png" width=430 />
 
 ### Random Cross Context 2
 **Context Parameter**:<br />
