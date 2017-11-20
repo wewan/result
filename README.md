@@ -28,14 +28,14 @@ Test Images:
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
 First is train image<br />
-<img src="results/shapecontex_train.png" width=300 />
-<img src="results/shapecontext_valid.png" width=300 />
-<img src="results/shapecontext_valid_2.png" width=300 />
-<img src="results/shapecontext_valid_3.png" width=300 />
-<img src="results/shapecontext_valid_4.png" width=300 />
-<img src="results/shapecontex_valid_5.png" width=300 />
-<img src="results/shapecontext_valid_6.png" width=300 />
-<img src="results/shapecontext_valid_7.png" width=300 />
+<img src="results/shapecontex_train.png" width=200 />
+<img src="results/shapecontext_valid.png" width=200 />
+<img src="results/shapecontext_valid_2.png" width=200 />
+<img src="results/shapecontext_valid_3.png" width=200 />
+<img src="results/shapecontext_valid_4.png" width=200 />
+<img src="results/shapecontex_valid_5.png" width=200 />
+<img src="results/shapecontext_valid_6.png" width=200 />
+<img src="results/shapecontext_valid_7.png" width=200 />
 
 
 
