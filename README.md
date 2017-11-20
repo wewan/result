@@ -146,12 +146,14 @@ Context Images-fold1&fold2:<br />
 **Context Parameter**:<br />
 *model weight*:0.29  &nbsp;*CurvatureWeighting*:0.15  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:28<br />
 First is train image<br />
-<img src="results/shapecontext_valid2_train.png" width=280 />
-<img src="results/shapecontext_valid2_1.png" width=280 />
-<img src="results/shapecontex_valid2_2.png" width=280 />
-<img src="results/shapecontext_valid2_3.png" width=280 />
-<img src="results/shapecontext_valid2_4.png" width=280 />
-<img src="results/shapecontext_valid2_5.png" width=280 />
+<img src="results/shapecontext3_train.png" width=210 />
+<img src="results/shapecontext3_valid1.png" width=210 />
+<img src="results/shapecontext3_valid2.png" width=210 />
+<img src="results/shapecontext3_valid3.png" width=210 />
+<img src="results/shapecontext3_valid4.png" width=210 />
+<img src="results/shapecontext3_valid5.png" width=210 />
+<img src="results/shapecontext3_valid6.png" width=210 />
+<img src="results/context3_valid7.png" width=210 />
 
 *Training*:<br />
 
