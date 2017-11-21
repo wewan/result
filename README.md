@@ -288,7 +288,7 @@ Summary:<br />
 <img src="results/20folds_puretrain_summary.png" width=1024 />
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
-<img src="results/20folds_puretrain_valid1.png" width=1024
+<img src="results/20folds_valid1.png" width=1024
 
 ### zeros Cross Context 
 **Context Parameter**:<br />
@@ -300,7 +300,7 @@ Test Images:<br />
 ||Random        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.9909 | 0.9908|0.9918|**->0.9902**
-**2**|-| -|-  |**->0.9916**
+**2**|0.9905| 0.9915|-  |**->0.9916**
 **3**|- | -|- |**->0.9916**
 
 *The testing*:<br />
@@ -308,19 +308,19 @@ Test Images:<br />
 ||Random        | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|1e^-8 | 0.9619|0.9620|**->0.9543**
-**2**|-| -|-  |**->0.9443**
+**2**|0.1691| 0.9612|-  |**->0.9443**
 **3**|- | -|- |**->0.9067**
 
 Summary:<br />
-<img src="results/20folds_zeroscrosscontext1_summary.png" width=1024 />
+<img src="results/20folds_zerocross1_summary.png" width=1024 />
 
-Zeros Images-fold1&fold2:<br />
+Zeros Images-fold1:<br />
 <img src="results/20folds_zeroscross1_zeros1.png" width=1024 />
 
-Zeros Cross Images-fold1&fold2:<br />
+Zeros Cross Images-fold1:<br />
 <img src="results/20folds_zeroscross1_all1.png" width=1024 />
 
-Context Images-fold1&fold2:<br />
+Context Images-fold1:<br />
 <img src="results/20folds_zerocross_valid1.png" width=1024 />
 
 
@@ -373,7 +373,7 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
   *  *Rnet_improve*<img src="results/Runet_improve.png" width=1024 />
   
 * strucute5
- **improve MSFCN to be NET-MSFCN**
+ * **improve MSFCN to be NET-MSFCN**
  
 
  
