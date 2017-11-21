@@ -1,5 +1,5 @@
 # Result
-## Usefull Material to be Tried (Important)
+## Usefull Material to be Tried 
 * **[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)**<br />
 * **[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
 Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
@@ -279,6 +279,45 @@ Zeros Cross Images-fold1&fold2:<br />
 * Pure unet outcome with Random context(Pure - Context)
 <img src="results/contextandpure.png" width=1024 />
 
+##  Training 20-folds
+
+### zeros Cross Context 
+**Context Parameter**:<br />
+*model weight*:0.28  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:35 &nbsp; *MaxInitialIteration*:30<br />
+
+**Network Structure**:didn't capture
+*Training*:<br />
+
+||Random        | CROSS         |CONTEXT | PureContext
+|------------ |------------ | ------------- | ------------- | -------------
+**1**|0.9868 | 0.9910|0.9915|**->0.991**
+**2**|0.9867 | 0.9906|0.9910  |**->0.991**
+
+*The testing*:<br />
+
+||Random        | CROSS         |CONTEXT  | PureContext
+|------------ |------------ | ------------- | ------------- | -------------
+**1**|0.0110 | 0.8364|0.8822|**->0.802**
+**2**|0.0015 | 0.9048| 0.8983|**->0.831**
+
+Summary:<br />
+(from folds 2, it indicats test acc could converge to **0** some times when training with zeros)
+<img src="results/realzerocontext1_summary.png" width=1024 />
+
+Zeros Images-fold1&fold2:<br />
+<img src="results/realzeroscontext1_zeros1.png" width=430 />
+<img src="results/realzeroscontext1_zeros2.png" width=430 />
+
+Zeros Cross Images-fold1&fold2:<br />
+<img src="results/realzeroscontext1_all1.png" width=430 />
+<img src="results/realzeroscontex1_all2.png" width=430 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/realzeroscontext1_valid1.png" width=430 />
+<img src="results/realzeroscontext1_valid2.png" width=430 />
+
+
+
 ## EXTENSION
 
 Unet-iner:
@@ -317,6 +356,20 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 <img src="results/unet_cat.png" width=1024 />
 * structure2
 <img src="results/unet_catloss.png" width=1024 />
+* structure3
+<img src="results/model_catloss_2.png" width=1024 />
+* structure4
+ * *iner*
+ <img src="results/Runet_improve.png" width=1024 />
+ * *Rnet_improve*
+  <img src="results/runet_iner_improve.png" width=1024 />
+* strucute5
+ **improve MSFCN to be NET-MSFCN**
+ 
+
+ 
+
+
 
 
 
