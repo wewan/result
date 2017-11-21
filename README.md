@@ -288,7 +288,7 @@ Summary:<br />
 <img src="results/20folds_puretrain_summary.png" width=1024 />
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
-<img src="results/20folds_puretrain_valid1.png" width=1024
+<img src="results/20folds_valid1.png" width=1024
 
 ### zeros Cross Context 
 **Context Parameter**:<br />
