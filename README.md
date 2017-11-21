@@ -312,7 +312,7 @@ Test Images:<br />
 **3**|- | -|- |**->0.9067**
 
 Summary:<br />
-<img src="results/20folds_zeroscrosscontext1_summary.png" width=1024 />
+<img src="results/20folds_zerocross1_summary.png" width=1024 />
 
 Zeros Images-fold1:<br />
 <img src="results/20folds_zeroscross1_zeros1.png" width=1024 />
