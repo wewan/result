@@ -349,7 +349,7 @@ Self-cycle three times:<br />
 
 
 ### To be tried 
-* **DO recurrent among context unet**
+* **Do recurrent among context unet**
 
 <img src="results/MSfcn.png" width=1024 />
 
@@ -361,15 +361,17 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 **chenging context model structure**<br />
 * structure1
 <img src="results/unet_cat.png" width=1024 />
+
 * structure2
 <img src="results/unet_catloss.png" width=1024 />
+
 * structure3
 <img src="results/model_catloss_2.png" width=1024 />
+
 * structure4
- * *iner*
- <img src="results/Runet_improve.png" width=1024 />
- * *Rnet_improve*
-  <img src="results/runet_iner_improve.png" width=1024 />
+  *  *iner*<img src="results/Runet_improve.png" width=1024 />
+  *  *Rnet_improve*<img src="results/runet_iner_improve.png" width=1024 />
+  
 * strucute5
  **improve MSFCN to be NET-MSFCN**
  
