@@ -314,13 +314,13 @@ Test Images:<br />
 Summary:<br />
 <img src="results/20folds_zeroscrosscontext1_summary.png" width=1024 />
 
-Zeros Images-fold1&fold2:<br />
+Zeros Images-fold1:<br />
 <img src="results/20folds_zeroscross1_zeros1.png" width=1024 />
 
-Zeros Cross Images-fold1&fold2:<br />
+Zeros Cross Images-fold1:<br />
 <img src="results/20folds_zeroscross1_all1.png" width=1024 />
 
-Context Images-fold1&fold2:<br />
+Context Images-fold1:<br />
 <img src="results/20folds_zerocross_valid1.png" width=1024 />
 
 
