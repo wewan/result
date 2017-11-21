@@ -373,7 +373,7 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
   *  *Rnet_improve*<img src="results/Runet_improve.png" width=1024 />
   
 * strucute5
- **improve MSFCN to be NET-MSFCN**
+ * **improve MSFCN to be NET-MSFCN**
  
 
  
