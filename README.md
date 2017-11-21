@@ -114,14 +114,14 @@ Context Images-fold1&fold2:<br />
 **Network Structure**:same with above
 *Training*:<br />
 
-||Random        | CROSS         |CONTEXT | PureContext
+||Zeros        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.9868 | 0.9910|0.9915|**->0.991**
 **2**|0.9867 | 0.9906|0.9910  |**->0.991**
 
 *The testing*:<br />
 
-||Random        | CROSS         |CONTEXT  | PureContext
+||Zeros       | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.0110 | 0.8364|0.8822|**->0.802**
 **2**|0.0015 | 0.9048| 0.8983|**->0.831**
@@ -299,7 +299,7 @@ Test Images:<br />
 **Network Structure**:didn't capture
 *Training*:<br />
 
-||Random        | CROSS         |CONTEXT | PureContext
+||Zeros        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.9909 | 0.9908|0.9918|**->0.9902**
 **2**|0.9905| 0.9915|-  |**->0.9916**
@@ -307,7 +307,7 @@ Test Images:<br />
 
 *The testing*:<br />
 
-||Random        | CROSS         |CONTEXT  | PureContext
+||Zeros        | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|1e^-8 | 0.9619|0.9620|**->0.9543**
 **2**|0.1691| 0.9612|-  |**->0.9443**
