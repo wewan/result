@@ -285,10 +285,10 @@ Zeros Cross Images-fold1&fold2:<br />
 The training dice accuracy is around [0.9902 0.9916 0.9913] <br />
 The testing dice accuracy is around [0.9543 0.9443 0.9067] <br />
 Summary:<br />
-<img src="results/20folds_summary.png" width=1024 />
+<img src="results/20folds_puretrain_summary.png" width=1024 />
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
-<img src="results/20folds_valid1.png" width=1024
+<img src="results/20folds_puretrain_valid1.png" width=1024
 
 ### zeros Cross Context 
 **Context Parameter**:<br />
@@ -299,31 +299,29 @@ Test Images:<br />
 
 ||Random        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
-**1**|0.9868 | 0.9910|0.9915|**->0.991**
-**2**|0.9867 | 0.9906|0.9910  |**->0.991**
+**1**|0.9909 | 0.9908|0.9918|**->0.9902**
+**2**|-| -|-  |**->0.9916**
+**3**|- | -|- |**->0.9916**
 
 *The testing*:<br />
 
 ||Random        | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
-**1**|0.0110 | 0.8364|0.8822|**->0.802**
-**2**|0.0015 | 0.9048| 0.8983|**->0.831**
+**1**|1e^-8 | 0.9619|0.9620|**->0.9543**
+**2**|-| -|-  |**->0.9443**
+**3**|- | -|- |**->0.9067**
 
 Summary:<br />
-(from folds 2, it indicats test acc could converge to **0** some times when training with zeros)
-<img src="results/realzerocontext1_summary.png" width=1024 />
+<img src="results/20folds_zeroscrosscontext1_summary.png" width=1024 />
 
 Zeros Images-fold1&fold2:<br />
-<img src="results/realzeroscontext1_zeros1.png" width=430 />
-<img src="results/realzeroscontext1_zeros2.png" width=430 />
+<img src="results/20folds_zeroscross1_zeros1.png" width=1024 />
 
 Zeros Cross Images-fold1&fold2:<br />
-<img src="results/realzeroscontext1_all1.png" width=430 />
-<img src="results/realzeroscontex1_all2.png" width=430 />
+<img src="results/20folds_zeroscross1_all1.png" width=1024 />
 
 Context Images-fold1&fold2:<br />
-<img src="results/realzeroscontext1_valid1.png" width=430 />
-<img src="results/realzeroscontext1_valid2.png" width=430 />
+<img src="results/20folds_zerocross_valid1.png" width=1024 />
 
 
 
