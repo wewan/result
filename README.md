@@ -303,6 +303,7 @@ Self-cycle three times:<br />
 
 
 ### To be tried 
+* **DO recurrent among context unet**
 
 <img src="results/MSfcn.png" width=1024 />
 
