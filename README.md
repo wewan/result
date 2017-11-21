@@ -19,6 +19,8 @@ The testing dice accuracy is around [0.802 0.831] <br />
 Summary:
 <img src="results/train1image.png" width=1024 />
 Repeated:
+The training dice accuracy is around [0.9913 0.9910] <br />
+The testing dice accuracy is around [0.836 0.8071] <br />
 <img src="results/train1image_repeated.png" width=1024 />
 **Conlucsion: result could varies a bit from training**
 Test Images:
