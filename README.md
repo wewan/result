@@ -369,8 +369,8 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 <img src="results/model_catloss_2.png" width=1024 />
 
 * structure4
-  *  *iner*<img src="results/Runet_improve.png" width=1024 />
-  *  *Rnet_improve*<img src="results/runet_iner_improve.png" width=1024 />
+  *  *iner*<img src="results/runet_iner_improve.png" width=1024 />
+  *  *Rnet_improve*<img src="results/Runet_improve.png" width=1024 />
   
 * strucute5
  **improve MSFCN to be NET-MSFCN**
