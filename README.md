@@ -1,5 +1,5 @@
 # Result
-## Usefull Material to be Tried (Important)
+## Usefull Material to be Tried 
 * **[CheXNet: Radiologist-Level Pneumonia Detection on Chest X-Rays with Deep Learning](https://stanfordmlgroup.github.io/projects/chexnet/)**<br />
 * **[MSFCN-multiple supervised fully convolutional networks for the osteosarcoma segmentation of CT images
 Author links open overlay panel](http://www.sciencedirect.com/science/article/pii/S0169260716310926)**
@@ -278,6 +278,11 @@ Zeros Cross Images-fold1&fold2:<br />
 
 * Pure unet outcome with Random context(Pure - Context)
 <img src="results/contextandpure.png" width=1024 />
+
+##  Training 20-folds
+
+
+
 
 ## EXTENSION
 
