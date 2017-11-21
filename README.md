@@ -317,6 +317,10 @@ Supplementary Material](http://openaccess.thecvf.com/content_cvpr_2016/supplemen
 <img src="results/unet_cat.png" width=1024 />
 * structure2
 <img src="results/unet_catloss.png" width=1024 />
+* structure3
+<img src="results/model_catloss_2.png" width=1024 />
+
+
 
 
 
