@@ -286,6 +286,7 @@ The training dice accuracy is around [0.9902 0.9916 0.9913] <br />
 The testing dice accuracy is around [0.9543 0.9443 0.9067] <br />
 Summary:<br />
 <img src="results/20folds_summary.png" width=1024 />
+
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
 <img src="results/20folds_valid1.png" width=1024
