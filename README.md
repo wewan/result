@@ -341,6 +341,38 @@ folds 2:<br />
 folds 3:<br />
 <img src="results/5folds_pureunet_valid3.png" width=1024 />
 
+### zeros Cross Context 
+**Context Parameter**:<br />
+*model weight*:0.28  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:37 &nbsp; *MaxInitialIteration*:30<br />
+
+**Network Structure**:didn't capture
+*Training*:<br />
+
+||Zeros        | CROSS         |CONTEXT | PureContext
+|------------ |------------ | ------------- | ------------- | -------------
+**1**|0.9895 | 0.9903|0.9916|**->0.9915**
+**2**|0.9905| 0.9923|0.9707 |**->0.9911**
+**3**|- | -|- |**->0.9924**
+
+*The testing*:<br />
+
+||Zeros        | CROSS         |CONTEXT  | PureContext
+|------------ |------------ | ------------- | ------------- | -------------
+**1**|9e^-5 | 0.9720|0.9732|**->0.9667**
+**2**|1e^-6| 0.9718|0.9717|**->0.9702**
+**3**|- | -|- |**->0.9703**
+
+Summary:<br />
+<img src="results/5folds_zeroscross1_summary.png" width=1024 />
+
+Zeros Images-fold1:<br />
+<img src="results/5fold_zeroscross1_zeros1.png" width=1024 />
+
+Zeros Cross Images-fold1:<br />
+<img src="results/5folds_zerocross1_all1.png" width=1024 />
+
+Context Images-fold1:<br />
+<img src="results/5folds_zeroscross1_valid1.png" width=1024 />
 
 
 
