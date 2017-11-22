@@ -338,6 +338,8 @@ folds 1:<br />
 <img src="results/5folds_pureunet_valid.png" width=1024 />
 folds 2:<br />
 <img src="results/5folds_pureunet_valid2.png" width=1024 />
+folds 3:<br />
+<img src="results/5folds_pureunet_valid3.png" width=1024 />
 
 
 
