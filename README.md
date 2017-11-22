@@ -18,7 +18,9 @@ The training dice accuracy is around [0.991 0.991] <br />
 The testing dice accuracy is around [0.802 0.831] <br />
 Summary:
 <img src="results/train1image.png" width=1024 />
-Repeated:
+Repeated:<br />
+The training dice accuracy is around [0.9913 0.9910] <br />
+The testing dice accuracy is around [0.836 0.8071] <br />
 <img src="results/train1image_repeated.png" width=1024 />
 **Conlucsion: result could varies a bit from training**
 Test Images:
@@ -112,14 +114,14 @@ Context Images-fold1&fold2:<br />
 **Network Structure**:same with above
 *Training*:<br />
 
-||Random        | CROSS         |CONTEXT | PureContext
+||Zeros        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.9868 | 0.9910|0.9915|**->0.991**
 **2**|0.9867 | 0.9906|0.9910  |**->0.991**
 
 *The testing*:<br />
 
-||Random        | CROSS         |CONTEXT  | PureContext
+||Zeros       | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.0110 | 0.8364|0.8822|**->0.802**
 **2**|0.0015 | 0.9048| 0.8983|**->0.831**
@@ -288,7 +290,7 @@ Summary:<br />
 <img src="results/20folds_puretrain_summary.png" width=1024 />
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
-<img src="results/20folds_valid1.png" width=1024
+<img src="results/20folds_valid1.png" width=1024 />
 
 ### zeros Cross Context 
 **Context Parameter**:<br />
@@ -297,7 +299,7 @@ Test Images:<br />
 **Network Structure**:didn't capture
 *Training*:<br />
 
-||Random        | CROSS         |CONTEXT | PureContext
+||Zeros        | CROSS         |CONTEXT | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|0.9909 | 0.9908|0.9918|**->0.9902**
 **2**|0.9905| 0.9915|-  |**->0.9916**
@@ -305,7 +307,7 @@ Test Images:<br />
 
 *The testing*:<br />
 
-||Random        | CROSS         |CONTEXT  | PureContext
+||Zeros        | CROSS         |CONTEXT  | PureContext
 |------------ |------------ | ------------- | ------------- | -------------
 **1**|1e^-8 | 0.9619|0.9620|**->0.9543**
 **2**|0.1691| 0.9612|-  |**->0.9443**
@@ -322,6 +324,23 @@ Zeros Cross Images-fold1:<br />
 
 Context Images-fold1:<br />
 <img src="results/20folds_zerocross_valid1.png" width=1024 />
+
+##  Training 5-folds
+
+### Pure training
+The training dice accuracy is around [0.9915 0.9911 0.9924] <br />
+The testing dice accuracy is around [0.9667 0.9702 0.9703] <br />
+Summary:<br />
+<img src="results/5folds_pureunet_summary.png.png" width=1024 />
+**Conlucsion: result could varies a bit from training**<br />
+Test Images:<br />
+folds 1:<br />
+<img src="results/5folds_pureunet_valid.png" width=1024 />
+folds 2:<br />
+<img src="results/5folds_pureunet_valid2.png" width=1024 />
+folds 3:<br />
+<img src="results/5folds_pureunet_valid3.png" width=1024 />
+
 
 
 
