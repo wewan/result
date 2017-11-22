@@ -325,6 +325,17 @@ Zeros Cross Images-fold1:<br />
 Context Images-fold1:<br />
 <img src="results/20folds_zerocross_valid1.png" width=1024 />
 
+##  Training 5-folds
+
+### Pure training
+The training dice accuracy is around [0.9915 0.9911 0.9924] <br />
+The testing dice accuracy is around [0.9667 0.9702 0.9703] <br />
+Summary:<br />
+<img src="results/5folds_pureunet_summary.png.png" width=1024 />
+**Conlucsion: result could varies a bit from training**<br />
+Test Images:<br />
+<img src="results/5folds_pureunet_valid.png" width=1024
+
 
 
 ## EXTENSION
