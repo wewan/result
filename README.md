@@ -290,7 +290,7 @@ Summary:<br />
 <img src="results/20folds_puretrain_summary.png" width=1024 />
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
-<img src="results/20folds_valid1.png" width=1024
+<img src="results/20folds_valid1.png" width=1024 />
 
 ### zeros Cross Context 
 **Context Parameter**:<br />
@@ -334,7 +334,11 @@ Summary:<br />
 <img src="results/5folds_pureunet_summary.png.png" width=1024 />
 **Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
-<img src="results/5folds_pureunet_valid.png" width=1024
+folds 1:<br />
+<img src="results/5folds_pureunet_valid.png" width=1024 />
+folds 2:<br />
+<img src="results/5folds_pureunet_valid2.png" width=1024 />
+
 
 
 
