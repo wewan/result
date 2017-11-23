@@ -150,6 +150,13 @@ same with above<br />
 **Network Structure**:same with above
 *The testing*:<br />
 [0.8799 0.9217]<br />
+
+| |iteration 1        |zerocrossContext
+|------------ | -------------| -------------
+**1**|0.8799  |**->0.8822**
+**2**|0.9217  |**->0.8983**
+
+
 Summary:<br />
 <img src="results/Train1image_zerocrossiteration_summary.png" width=1024 />
 
@@ -164,6 +171,12 @@ same with above<br />
 **Network Structure**:same with above
 *The testing*:<br />
 [0.8874 0.9248]<br />
+
+| |iteration 2      |iteration 1    |zerocrossContext
+|------------ | -------------|-------------| -------------
+**1**|0.8874  |0.8799 |**->0.8822**
+**2**|0.9248  |0.9217 |**->0.8983**
+
 Summary:<br />
 <img src="results/train1image_zeroscrossiteration2_summary.png" width=1024 />
 
