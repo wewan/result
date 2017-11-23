@@ -142,6 +142,23 @@ Context Images-fold1&fold2:<br />
 <img src="results/realzeroscontext1_valid1.png" width=430 />
 <img src="results/realzeroscontext1_valid2.png" width=430 />
 
+### zeros Cross Context 1 iteration
+
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+same with above<br />
+**Network Structure**:same with above
+*The testing*:<br />
+[0.8799 0.9217]<br />
+Summary:<br />
+<img src="results/Train1image_zerocrossiteration_summary.png" width=1024 />
+
+Context Images-fold1&fold2:<br />
+<img src="results/Train1imageiteration1_zeroscross1_valid1.png" width=430 />
+<img src="results/train1imageiteration_zeroscross1_valid2.png" width=430 />
+
+
+
 ### Random Cross Context 2
 **Context Parameter**:<br />
 *model weight*:0.28  &nbsp;*CurvatureWeighting*:0.1  &nbsp;*MaxIteration*:32 &nbsp; *MaxInitialIteration*:20<br />
