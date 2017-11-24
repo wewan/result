@@ -142,7 +142,7 @@ Context Images-fold1&fold2:<br />
 <img src="results/realzeroscontext1_valid1.png" width=430 />
 <img src="results/realzeroscontext1_valid2.png" width=430 />
 
-### zeros Cross Context 1 iteration 1 (without training)
+### zeros Cross Context 1 iteration 2 (without training)
 
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
@@ -151,7 +151,7 @@ same with above<br />
 *The testing*:<br />
 [0.8799 0.9217]<br />
 
-| |iteration 1        |zerocrossContext
+| |iteration 2        |zerocrossContext
 |------------ | -------------| -------------
 **1**|0.8799  |**->0.8822**
 **2**|0.9217  |**->0.8983**
@@ -163,7 +163,7 @@ Summary:<br />
 Context Images-fold1&fold2:<br />
 <img src="results/Train1imageiteration1_zeroscross1_valid1.png" width=430 />
 <img src="results/train1imageiteration_zeroscross1_valid2.png" width=430 />
-### zeros Cross Context 1 iteration 2 (without training)
+### zeros Cross Context 1 iteration 3 (without training)
 
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
@@ -172,7 +172,7 @@ same with above<br />
 *The testing*:<br />
 [0.8874 0.9248]<br />
 
-| |iteration 2      |iteration 1    |zerocrossContext
+| |iteration 3      |iteration 2    |zerocrossContext
 |------------ | -------------|-------------| -------------
 **1**|0.8874  |0.8799 |**->0.8822**
 **2**|0.9248  |0.9217 |**->0.8983**
@@ -184,7 +184,7 @@ Context Images-fold1&fold2:<br />
 <img src="results/train1image_zeroscrossiteration2_valid1.png" width=430 />
 <img src="results/train1image_zeroscrossiteration2_valid2.png" width=430 />
 
-### zeros Cross Context 1 iteration 3 (without training)
+### zeros Cross Context 1 iteration 4 (without training)
 
 **Context Parameter**:<br />
 *model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
@@ -193,7 +193,7 @@ same with above<br />
 *The testing*:<br />
 [0.8902 0.9259]<br />
 
-| |iteration 3      |iteration 2    |iteration 1    |zerocrossContext
+| |iteration 4      |iteration 3    |iteration 2    |zerocrossContext
 |------------ | -------------|-------------|-------------| -------------
 **1**|0.8902  |0.8874 |0.8799 |**->0.8822**
 **2**|0.9259  |0.9248 |0.9217 |**->0.8983**
