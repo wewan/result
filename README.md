@@ -205,6 +205,22 @@ Context Images-fold1&fold2:<br />
 <img src="results/train1image_zeroscrossiteration3_valid1.png" width=430 />
 <img src="results/train1image_zeroscrossiteration3_valid2.png" width=430 />
 
+### zeros Cross Context 1 iteration 5 (without training)
+
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+same with above<br />
+**Network Structure**:same with above
+*The testing*:<br />
+[0.8900 0.9267]<br />
+
+||iteration 5  |iteration 4      |iteration 3    |iteration 2    |zerocrossContext
+|------------ | -------------| -------------|-------------|-------------| -------------
+**1**|0.8900 |0.8902  |0.8874 |0.8799 |**->0.8822**
+**2**|0.9267 |0.9259  |0.9248 |0.9217 |**->0.8983**
+
+
+
 
 
 
