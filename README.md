@@ -205,7 +205,73 @@ Context Images-fold1&fold2:<br />
 <img src="results/train1image_zeroscrossiteration3_valid1.png" width=430 />
 <img src="results/train1image_zeroscrossiteration3_valid2.png" width=430 />
 
+### zeros Cross Context 1 iteration 5 (without training)
 
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+same with above<br />
+**Network Structure**:same with above
+*The testing*:<br />
+[0.8900 0.9267]<br />
+
+||iteration 5  |iteration 4      |iteration 3    |iteration 2    |zerocrossContext
+|------------ | -------------| -------------|-------------|-------------| -------------
+**1**|0.8900 |0.8902  |0.8874 |0.8799 |**->0.8822**
+**2**|0.9267 |0.9259  |0.9248 |0.9217 |**->0.8983**
+
+### zeros Cross Context 1 iteration 6 (without training)
+
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+same with above<br />
+**Network Structure**:same with above
+*The testing*:<br />
+[0.8912 0.9273]<br />
+
+||iteration 6 |iteration 5  |iteration 4      |iteration 3    |iteration 2    |zerocrossContext
+|------------ |------------ | -------------| -------------|-------------|-------------| -------------
+**1**|0.8912 |0.8900 |0.8902  |0.8874 |0.8799 |**->0.8822**
+**2**|0.9273 |0.9267 |0.9259  |0.9248 |0.9217 |**->0.8983**
+
+Context Images-fold1&fold2:<br />
+<img src="results/train1image_zerocrossiteration6_valid1.png" width=430 />
+<img src="results/train1image_zeroscrossiteration6_valid2.png" width=430 />
+
+### zeros Cross Context 1 iteration 7 (without training)
+
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+same with above<br />
+**Network Structure**:same with above
+*The testing*:<br />
+[0.8921 0.9273]<br />
+
+||iteration 7|iteration 6 |iteration 5  |iteration 4      |iteration 3    |iteration 2    |zerocrossContext
+|------------ |------------ |------------ | -------------| -------------|-------------|-------------| -------------
+**1**|0.8921 |0.8912 |0.8900 |0.8902  |0.8874 |0.8799 |**->0.8822**
+**2**|0.9274 |0.9273 |0.9267 |0.9259  |0.9248 |0.9217 |**->0.8983**
+
+Context Images-fold1&fold2:<br />
+<img src="results/train1image_zerocrossiteration7_valid1.png" width=430 />
+<img src="results/train1image_zeroscrossiteration7_valid2.png" width=430 />
+
+### zeros Cross Context 1 iteration 8 (without training)
+
+**Context Parameter**:<br />
+*model weight*:0.3  &nbsp;*CurvatureWeighting*:0.2  &nbsp;*MaxIteration*:30 &nbsp; *MaxInitialIteration*:30<br />
+same with above<br />
+**Network Structure**:same with above
+*The testing*:<br />
+[0.8930 0.9275]<br />
+
+||iteration 8|iteration 7|iteration 6 |iteration 5  |iteration 4  |iteration 3   |iteration 2    |zerocrossContext
+|------------ |------------ |------------ |------------ | -------------| -------------|-------------|-------------| -------------
+**1**|0.8930 |0.8921 |0.8912 |0.8900 |0.8902  |0.8874 |0.8799 |**->0.8822**
+**2**|0.9275 |0.9274 |0.9273 |0.9267 |0.9259  |0.9248 |0.9217 |**->0.8983**
+
+Context Images-fold1&fold2:<br />
+<img src="results/train1image_zeroscrossiteration8_valid1.png" width=430 />
+<img src="results/train1image_zeroscrossiteration8_valid2.png" width=430 />
 
 
 ### Random Cross Context 2
