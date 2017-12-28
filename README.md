@@ -459,12 +459,11 @@ Context Images-fold1:<br />
 
 ##  Training 5-folds
 
-### Pure training
+### Pure training(without data augmentation)
 The training dice accuracy is around [0.9915 0.9911 0.9924] <br />
 The testing dice accuracy is around [0.9667 0.9702 0.9703] <br />
 Summary:<br />
 <img src="results/5folds_pureunet_summary.png.png" width=1024 />
-**Conlucsion: result could varies a bit from training**<br />
 Test Images:<br />
 folds 1:<br />
 <img src="results/5folds_pureunet_valid.png" width=1024 />
@@ -472,6 +471,19 @@ folds 2:<br />
 <img src="results/5folds_pureunet_valid2.png" width=1024 />
 folds 3:<br />
 <img src="results/5folds_pureunet_valid3.png" width=1024 />
+
+### Pure training(data augmentation)
+The training dice accuracy is around [0.9918 0.9920 0.9920] <br />
+The testing dice accuracy is around [0.9722 0.9724 0.9718] <br />
+Summary:<br />
+<img src="results/5folds_pureunetaugmentation_summary.png" width=1024 />
+Test Images:<br />
+folds 1:<br />
+<img src="results/5folds_pureunetaugmentation_valid1.png" width=1024 />
+folds 2:<br />
+<img src="results/5folds_pureunetaugmenation_valid2.png" width=1024 />
+folds 3:<br />
+<img src="results/unet_pureunetaugmentation_valid3.png" width=1024 />
 
 ### zeros Cross Context 
 **Context Parameter**:<br />
